@@ -14,5 +14,35 @@ D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 
 	Quedo el de BETA.
 
+E- ¿Algún integrante tuvo problemas al hacer el push?
 
+	Si tanto Beta como Gamma. 
 
+F- ¿Qué problemas surgieron?
+
+	Beta: Al intentar pushear, vio conflicto ya que no tenia la version
+	actualizada de la rama.Entonces luego de hacer un git pull no hubo
+	inconvenientes. 
+	Gamma: Ocurrio lo mismo que le paso a Beta, pero se dio un conflicto 	
+	en el html por lo que gamma para solucionarlo debio editar a mano el 
+	archivo. 
+
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+
+	A la hora de mergear, nosotros identificamos dos variantes; cuando no hay 
+	conflictos, entonces el merge no genera errores, y cuando se modifican en dos
+	ramas diferentes la misma linea de un archivo. En ese caso, se debe editar 
+	el archivo a mano para solucionar los problemas. 
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+
+	Nosotros no utilizamos el push -f, pero leyendo, encontramos que el mismo 
+	fuerza un push ignorando los conflictos, por lo que suponemos que si cada 
+	uno lo utiliza se ira sobreescribiendo el repositorio con el contenido local 
+	de cada miembro. 
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+
+	Lo que se debe hacer es lo mencionado anteriormente, editar el archivo a mano. 
